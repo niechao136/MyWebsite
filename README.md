@@ -70,31 +70,17 @@ My Website App
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:dev": "vue-cli-service build --mode development",
-    "build:prod": "vue-cli-service build --mode production",
-    "build:test": "vue-cli-service build --mode test",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.19.0",                     // 创建 http 请求
     "core-js": "^2.6.5",
-    "crypto-js": "^3.1.9-1",                // 加密解密
-    "element-ui": "^2.12.0",                // UI
-    "lodash": "^4.17.15",                   // 数组、对象处理
-    "moment": "^2.24.0",                    // 时间处理
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
-    "vue-cookies": "^1.5.13",               // vue 使用 cookie
-    "vue-i18n": "^8.14.1",                  // vue 多语言配置
     "vue-property-decorator": "^8.1.0",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1",
-    "vuex-class": "^0.3.2",                 // vuex 引用装饰器
-    "vuex-module-decorators": "^0.10.1"     // vuex 定义装饰器
   },
   "devDependencies": {
-    "@types/crypto-js": "^3.1.43",
-    "@types/lodash": "^4.14.144",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-typescript": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
