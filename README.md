@@ -70,9 +70,7 @@ My Website App
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:dev": "vue-cli-service build --mode development",
-    "build:prod": "vue-cli-service build --mode production",
-    "build:test": "vue-cli-service build --mode test",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
